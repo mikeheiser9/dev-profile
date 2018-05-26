@@ -2,9 +2,8 @@
   "name": "dev-profile",
   "version": "1.0.0",
   "description": "Mike Heiser Dev Portfolio",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "client": "cd client && npm run start",
     "dev": "concurrently \"nodemon server.js\" \"npm run client\"",
@@ -17,8 +16,18 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mikeheiser9/dev-profile/issues"
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
   },
-  "homepage": "https://github.com/mikeheiser9/dev-profile#readme"
+  "homepage": "https://github.com/mikeheiser9/dev-profile#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.6"
+  }
 }
