@@ -131,7 +131,7 @@ class Welcome extends Component{
                      <br></br>
                      <span id="location">DTLA</span>
                 
-                    <img src={'../../../images/DTLA.png'} alt={"dtla-img"} className="dtlaImg"/> 
+                    <img src={'../../../images/DTLA-copy.png'} alt={"dtla-img"} className="dtlaImg"/> 
                     </div>
                 </Col>
             </Row> 

@@ -3,50 +3,43 @@
 }
 
 .dtlaImg {
-    position: fixed bottom;
-    width: 100%;
+    width: 100vw;
     z-index: 1;
+    bottom: 0;
+    margin-left: -13px;
+    margin-right: -15px;
 }
+
 
 .particles {
     margin:0; 
-    font: normal 75% Arial, Helvetica, sans-serif; 
     display: block; 
     position: absolute; 
-    width: 100%; 
+    width: 100vw !important; 
     height: 100%; 
     background-color: #191a25; 
-    background: #000022; 
-    position: absolute; 
     top: 48px; 
-    left: 0; 
+    left: -5px; 
     color: #13E8E9; 
-    font-size: .8em; 
-    text-align: left; 
+    text-align: center; 
     text-indent: 4px; 
     line-height: 14px; 
     padding-bottom: 2px; 
-    font-family: Helvetica, Arial, sans-serif; 
     font-weight: bold;
-    font-size: 1.1em;  
     margin-top: 5px; margin-left: 5px;
     border-radius: 3px 3px 0 0; overflow: hidden;
     border-radius: 0 0 3px 3px;
     z-index: -1;
-
 }
 
-#nameContainer {
-    display: inline-block;
-    z-index: 2;
-    
-}
 
 #name {
     z-index: 2;
     font-size: 100px;
     color: white;
     position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 #job {
@@ -54,7 +47,9 @@
     font-size: 40px;
     color: white;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
+
 }
 
 #location {
@@ -63,4 +58,5 @@
     color: white;
     position: absolute;
     margin-top: 200px;
+    margin-left: 100px;
 }

@@ -10,14 +10,12 @@ class Header extends Component {
     render() {
      return (
     <Row>
-     <Col s={12}>
       <Navbar right className="header">
-        <NavItem onClick={() => console.log('test click')}>Resumè</NavItem>
-        <NavItem href='components.html'>About</NavItem>
-        <NavItem href='components.html'>Projects</NavItem>
+        <NavItem className="navItem" onClick={() => console.log('test click')}>Resumè</NavItem>
+        <NavItem className="navItem" href='components.html'>About</NavItem>
+        <NavItem className="navItem" href='components.html'>Projects</NavItem>
       </Navbar>
-     </Col>
-    </Row>
+     </Row>
     );
     }
 }

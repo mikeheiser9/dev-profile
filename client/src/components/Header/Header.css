@@ -1,5 +1,16 @@
 .header {
     font-family: 'Kanit', sans-serif !important;
+    background-color: #191a25;
+    width: 100vw;
     
+}
+
+.navItem {
+    position: inline-block;
+    float: right;
+}
+
+.navItem:hover {
+    background-color: lightgray;
 }
 
