@@ -125,9 +125,9 @@ class Welcome extends Component{
                          
             />
                 
-                     <span id="name">Michael Heiser</span>
+                     <span id="name">Mike Heiser</span>
                      <br></br>
-                     <span id="job">Full-Stack Web Developer</span>
+                     <span id="job">Full-Stack Developer</span>
                      <br></br>
                      <span id="location">DTLA</span>
                 
