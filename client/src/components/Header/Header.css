@@ -2,12 +2,14 @@
     font-family: 'Kanit', sans-serif !important;
     background-color: #191a25;
     width: 100vw;
-    
+    position: fixed;
+    z-index: 4;
 }
 
 .navItem {
     position: inline-block;
     float: right;
+    margin-right: 10px;
 }
 
 .navItem:hover {

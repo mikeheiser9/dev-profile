@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../About/About.css";
 import {Dropdown, Button, NavItem, Modal, Col, Row, Navbar} from "react-materialize"
 import { BrowserRouter as Router, Route, Link, Redirect} from "react-router-dom";
+import aos from "aos";
 
 
 class About extends Component {
@@ -11,7 +12,7 @@ class About extends Component {
      return (
     <Row className="aboutRow">
         <Col s={6}>
-        <img src={'../../../images/me.jpg'} alt={"mike-heiser-img"} className="meImg"/>
+        <img data-aos={"fade-down-right"} src={'../../../images/me.jpg'} alt={"mike-heiser-img"} className="meImg"/>
         </Col>
         <Col s={6} id="textContainer">
         <p className="textBody">
