@@ -44,17 +44,17 @@ class Welcome extends Component{
                                 "random": true,
                                 "anim": {
                                   "enable": true,
-                                  "speed": 1,
+                                  "speed": 2,
                                   "opacity_min": 0,
                                   "sync": false
                                 }
                               },
                               "size": {
-                                "value": 3,
+                                "value": 4,
                                 "random": true,
                                 "anim": {
                                   "enable": false,
-                                  "speed": 4,
+                                  "speed": 6,
                                   "size_min": 0.3,
                                   "sync": false
                                 }
@@ -137,7 +137,5 @@ class Welcome extends Component{
             </Row> 
         );
     };
- 
 }
-
 export default Welcome;
