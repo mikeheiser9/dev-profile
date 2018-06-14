@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import "../Welcome/Welcome.css";
 import Particles from 'react-particles-js';
 import {Dropdown, Button, NavItem, Modal, Col, Row, Navbar} from "react-materialize"
+import "../Services/Services.css";
 
- 
+
 class Services extends Component{
   
     render(){
         return (
-        <Row>
+        <Row id={"servicesContainer"}>
             <Col s={12}>
-                <span>"Skills & Services</span>
+                <span className={"servicesHeader"}>Skills and Services</span>
             </Col>
         </Row>
         );

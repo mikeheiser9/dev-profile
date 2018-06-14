@@ -1,0 +1,15 @@
+.servicesHeader {
+    font-size: 48px;
+    font-family: 'Kanit', sans-serif !important;
+    text-align: center;
+    display: block;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.servicesContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke !important
+
+}
