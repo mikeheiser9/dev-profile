@@ -3,10 +3,18 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Welcome from "./components/Welcome/Welcome";
 import About from "./components/About/About";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import "./App.css";
 
-
 class App extends Component {
+
+  componentDidMount(){
+    AOS.init({
+      duration : 2000
+    })
+  }
+
   render() {
     return (
     <Router>

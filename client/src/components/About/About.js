@@ -2,19 +2,25 @@ import React, { Component } from "react";
 import "../About/About.css";
 import {Dropdown, Button, NavItem, Modal, Col, Row, Navbar} from "react-materialize"
 import { BrowserRouter as Router, Route, Link, Redirect} from "react-router-dom";
-
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 class About extends Component {
 
+    componentDidMount(){
+        AOS.init({
+          duration : 2000
+        })
+      }
 
     render() {
      return (
     <Row className="aboutRow">
         <Col s={6}>
-        <img src={'../../../images/me.jpg'} alt={"mike-heiser-img"} className="meImg" />
+        <img data-aos={"zoom-out-right"} src={'../../../images/me.jpg'} alt={"mike-heiser-img"} className="meImg" />
         </Col>
         <Col s={6} id="textContainer">
-        <p className="textBody">
+        <p className="textBody" data-aos={"zoom-out-left"}>
         <span id="aboutMe">ABOUT ME</span>
         <br/>
         <br/>
@@ -24,6 +30,5 @@ class About extends Component {
     );
     }
 }
-
 
 export default About;
