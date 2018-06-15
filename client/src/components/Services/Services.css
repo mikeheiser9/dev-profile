@@ -5,11 +5,32 @@
     display: block;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 20px;
 }
 
-.servicesContainer {
+#servicesContainer {
     width: 100vw;
     height: 100vh;
-    background-color: whitesmoke !important
+    background-color: #dedede;
+    margin-top: -25px;
+}
 
+.devHead {
+    font-size: 28px;
+    font-family: 'Kanit', sans-serif !important;
+    text-align: center;
+    display: block;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.list {
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif !important;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.listItem {
+    margin-top: 10px;
 }
