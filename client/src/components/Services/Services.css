@@ -34,3 +34,10 @@
 .listItem {
     margin-top: 10px;
 }
+
+.skillHead {
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif !important;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

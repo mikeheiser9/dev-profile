@@ -14,17 +14,12 @@ class Services extends Component{
                 <span className={"servicesHeader"} data-aos={"zoom-out-down"}>Skills and Services</span>
             </Col>
           </Row>
-        <Row>
+        <Row id={"ecomRow"}>
         <Col s={6}>
-             <ul className={"list"} data-aos={"zoom-out-right"}>
-             <li className={"listItem"}>Registered Shopify Expert</li>
-             <li className={"listItem"}>UI/UX Design</li>
-             <li className={"listItem"}>Sales Consulting</li>
-             <li className={"listItem"}>Magento</li>
-             <li className={"listItem"}>Blah Blah Blah</li>
-             </ul>
+             <span>Holder for Screen Video</span>
             </Col>
             <Col s={6}>
+            <span className={"skillHead"}>E-Commerce Web Design</span>
              <ul className={"list"} data-aos={"zoom-out-left"}>
              <li className={"listItem"}>Registered Shopify Expert</li>
              <li className={"listItem"}>UI/UX Design</li>
@@ -34,17 +29,12 @@ class Services extends Component{
              </ul>
              </Col>
         </Row>
-        <Row>
+        <Row id={"webDevRow"}>
         <Col s={6}>
-             <ul className={"list"} data-aos={"zoom-out-right"}>
-             <li className={"listItem"}>Registered Shopify Expert</li>
-             <li className={"listItem"}>UI/UX Design</li>
-             <li className={"listItem"}>Sales Consulting</li>
-             <li className={"listItem"}>Magento</li>
-             <li className={"listItem"}>Blah Blah Blah</li>
-             </ul>
+             <span>Holder for Screen Video</span>
             </Col>
             <Col s={6}>
+            <span className={"skillHead"}>Full Stack Web Development</span>
              <ul className={"list"} data-aos={"zoom-out-left"}>
              <li className={"listItem"}>Registered Shopify Expert</li>
              <li className={"listItem"}>UI/UX Design</li>
@@ -54,7 +44,6 @@ class Services extends Component{
              </ul>
              </Col>
         </Row>
-
         </div>
         );
     };
