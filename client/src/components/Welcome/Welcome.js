@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import "../Welcome/Welcome.css";
 import Particles from 'react-particles-js';
-import {Dropdown, Button, NavItem, Modal, Col, Row, Navbar} from "react-materialize"
+import {Dropdown, Button, NavItem, Modal, Col, Row, Navbar, Parallax} from "react-materialize"
 
  
 class Welcome extends Component{
   
     render(){
         return (
+          <div id="welcomeContainer">
             <Row>
                 <Col s={12}>
-                    <div id="welcomeContainer">
+                    <div>
                     <Particles className="particles"
                         params={{
                         particles: {
@@ -135,6 +136,7 @@ class Welcome extends Component{
                     </div>
                 </Col>
             </Row> 
+            </div>
         );
     };
 }
