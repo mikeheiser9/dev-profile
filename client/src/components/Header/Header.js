@@ -9,6 +9,7 @@ class Header extends Component {
 
     render() {
      return (
+    <div className={"navContainer"}> 
     <Row>
       <Navbar right className="header">
         <NavItem className="navItem" onClick={() => console.log('test click')}>Resumè</NavItem>
@@ -16,6 +17,7 @@ class Header extends Component {
         <NavItem className="navItem" href='components.html'>Projects</NavItem>
       </Navbar>
      </Row>
+     </div>
     );
     }
 }

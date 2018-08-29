@@ -16,13 +16,15 @@ class Services extends Component{
           </Row>
         <Row id={"ecomRow"}>
         <Col s={6}>
-            <span>Holder for Screen Video</span>
+            <div className={"laptop-container"}>
+                <img src={'../../../images/devprof.gif'} className={'laptopImg'} />
+            </div>
             </Col>
             <Col s={6}>
-            <img src={'../../../images/shopify.png'} className={"ecomImg"} data-aos={"fade-left"}/>
-            <img src={'../../../images/magento.png'} className={"ecomImg"} data-aos={"fade-left"}/>
-            <img src={'../../../images/WooCommerce.png'} className={"ecomImg"} data-aos={"fade-left"}/>
-            <img src={'../../../images/squarespace.png'}className={"ecomImg"} data-aos={"fade-left"}/>
+            <img src={'../../../images/shopify.png'} className={"ecomImg"} />
+            <img src={'../../../images/magento.png'} className={"ecomImg"} />
+            <img src={'../../../images/WooCommerce.png'} className={"ecomImg"} />
+            <img src={'../../../images/squarespace.png'}className={"ecomImg"} />
         </Col>
         </Row>
         </div>

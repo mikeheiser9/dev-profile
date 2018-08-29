@@ -10,9 +10,8 @@
 
 #servicesContainer {
     width: 100vw;
-    height: 100vh;
+    height: 750px;
     background-color: #dedede;
-    margin-top: -25px;
 }
 
 .devHead {
@@ -48,4 +47,15 @@
     margin-top: 25px;
     float: right;
     margin-right: 25px;
+}
+
+.laptop-container {
+    position: relative;
+    min-width: 50%;
+}
+
+.laptopImg {
+    position: absolute;   
+    max-width: 100%; 
+    max-height: 100%;
 }

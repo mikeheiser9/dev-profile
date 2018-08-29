@@ -10,8 +10,6 @@ class Welcome extends Component{
         return (
           <div id="welcomeContainer">
             <Row>
-                <Col s={12}>
-                    <div>
                     <Particles className="particles"
                         params={{
                         particles: {
@@ -125,17 +123,14 @@ class Welcome extends Component{
                           }}
                          
             />
-                
-                     <span id="name">Mike Heiser</span>
+                     <p id="name">Mike Heiser</p>
                      <br></br>
-                     <span id="job">Full-Stack Developer</span>
+                     <p id="job">Full-Stack Developer/E-Commerce Expert</p>
                      <br></br>
-                     <span id="location">DTLA</span>
+                     <p id="location">DTLA</p>
                 
-                    <img src={'../../../images/DTLA-copy.png'} alt={"dtla-img"} className="dtlaImg"/> 
-                    </div>
-                </Col>
-            </Row> 
+                    <img src={'../../../images/DTLA-copy.png'} alt={"dtla-img"} className="dtlaImg"/>
+                    </Row>
             </div>
         );
     };

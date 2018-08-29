@@ -15,18 +15,30 @@ class About extends Component {
 
     render() {
      return (
-    <Row className="aboutRow">
+       <div className="aboutRow">
+    <Row>
         <Col s={6}>
-        <img data-aos={"zoom-out-right"} src={'../../../images/me.jpg'} alt={"mike-heiser-img"} className="meImg" />
+        <div className={'img-container'}>
+         <img src={'../../../images/me.jpg'} alt={"mike-heiser-img"} className="meImg responsive-img" />
+          </div>
         </Col>
-        <Col s={6} id="textContainer">
-        <p className="textBody" data-aos={"zoom-out-left"}>
+        <Col s={6}>
+          <div className={'textContainer'}>
+            <p id={'aboutMe'}>ABOUT ME</p>
+            <p id={'textBody'}>
+            My name is Mike Heiser and I am a full-stack developer living in downtown LA. I enjoy creating dynamic web applications and expressing myself creativly through my projects. I have experience in both web development and e-commerce. I have worked on e-commerce platforms such as Shoify and Magento.  I also have experience with Wordpress. If you like my work would like to see more please feel free send me a <a>message</a></p>
+          </div>
+        </Col>
+        
+        {/* <Col s={6} m={6} l={6} id="textContainer">
+        <p className="textBody flow-text">
         <span id="aboutMe">ABOUT ME</span>
         <br/>
         <br/>
-        My name is Mike Heiser and I am a full-stack developer living in downtown LA. I enjoy creating dynamic web applications and expressing myself creativly through my projects. I have experience in both web development and e-commerce. I have worked on e-commerce platforms such as Shoify and Magento.  I also have experience with Wordpress. If you like my work would like to see more please feel free to check out my <a>GitHub</a></p>
-        </Col>
+        My name is Mike Heiser and I am a full-stack developer living in downtown LA. I enjoy creating dynamic web applications and expressing myself creativly through my projects. I have experience in both web development and e-commerce. I have worked on e-commerce platforms such as Shoify and Magento.  I also have experience with Wordpress. If you like my work would like to see more please feel free send me a <a>message</a></p>
+        </Col> */}
      </Row>
+     </div>
     );
     }
 }
