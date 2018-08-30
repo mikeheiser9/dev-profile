@@ -8,26 +8,30 @@ class Services extends Component{
   
     render(){
         return (
-        <div id={"servicesContainer"}>
-          <Row>
+            <div className={"servicesContainer"} id={"services"}>
+            <Row>
             <Col s={12}>
-                <span className={"servicesHeader"} data-aos={"zoom-out-down"}>E-Commerce Development</span>
-            </Col>
-          </Row>
-        <Row id={"ecomRow"}>
-        <Col s={6}>
-            <div className={"laptop-container"}>
-                <img src={'../../../images/devprof.gif'} className={'laptopImg'} />
+                 <span className={"servicesHeader"}>E-Commerce Development</span>
+             </Col>
+             </Row>
+             <Row>
+                 <Col s={12} m={7}>
+                 <div className={"laptop-container"}>
+                     <img src={'../../../images/black-comp-cropped.gif'} className={'laptopImg'} />
+                 </div>
+                 </Col>
+                 <Col s={12} m={5}>
+                    <div className={'ecom-container'}>
+                    <img src={'../../../images/shopify.png'} className={"ecomImg"} />
+                    <img src={'../../../images/magento.png'} className={"ecomImg"} />
+                    <img src={'../../../images/WooCommerce.png'} className={"ecomImg"} />
+                    <img src={'../../../images/squarespace.png'}className={"ecomImg"} />
+                    </div>
+                 </Col>
+             </Row>
+           
             </div>
-            </Col>
-            <Col s={6}>
-            <img src={'../../../images/shopify.png'} className={"ecomImg"} />
-            <img src={'../../../images/magento.png'} className={"ecomImg"} />
-            <img src={'../../../images/WooCommerce.png'} className={"ecomImg"} />
-            <img src={'../../../images/squarespace.png'}className={"ecomImg"} />
-        </Col>
-        </Row>
-        </div>
+
         );
     };
 }

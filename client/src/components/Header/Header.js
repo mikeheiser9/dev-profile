@@ -12,9 +12,10 @@ class Header extends Component {
     <div className={"navContainer"}> 
     <Row>
       <Navbar right className="header">
-        <NavItem className="navItem" onClick={() => console.log('test click')}>Resumè</NavItem>
-        <NavItem className="navItem" href='components.html'>About</NavItem>
-        <NavItem className="navItem" href='components.html'>Projects</NavItem>
+        <NavItem className="navItem" href='#contact'>Contact</NavItem>
+        <NavItem className="navItem" href='#myWork'>My Work</NavItem>
+        <NavItem className="navItem" href='#services'>Services</NavItem>
+        <NavItem className="navItem" href='#about'>About</NavItem>
       </Navbar>
      </Row>
      </div>
