@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Particles from 'react-particles-js';
-import {Dropdown, Button, NavItem, Modal, Col, Row, Navbar} from "react-materialize"
+import {Dropdown, Button, NavItem, Modal, Col, Row, Navbar} from "react-materialize";
 import "../Services/Services.css";
 
 
@@ -29,9 +29,7 @@ class Services extends Component{
                     </div>
                  </Col>
              </Row>
-           
             </div>
-
         );
     };
 }

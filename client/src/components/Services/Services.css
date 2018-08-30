@@ -21,6 +21,11 @@
     margin-right: 25px;
 }
 
+/* .ecomImg:hover{
+    background-color: whitesmoke;
+    padding: 20px;
+} */
+
 .laptop-container {
     position: relative;
 }
@@ -35,5 +40,4 @@
 
 .ecom-container {
     position: relative;
-
 }

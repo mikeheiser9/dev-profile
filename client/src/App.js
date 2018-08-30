@@ -3,7 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Welcome from "./components/Welcome/Welcome";
 import About from "./components/About/About";
-import Services from "./components/Services/Services"
+import Services from "./components/Services/Services";
+import Dev from "./components/Dev/Dev";
+import Work from "./components/Work/Work";
+import Contact from "./components/Contact/Contact";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import "./App.css";
@@ -20,10 +23,13 @@ class App extends Component {
     return (
     <Router>
       <div className="App">
-          <Header />
-          <Welcome />
+        <Header />
+        <Welcome />
         <About />
         <Services />
+        <Dev />
+        <Work />
+        <Contact />
       </div>
     </Router>
     );
