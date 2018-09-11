@@ -1,5 +1,38 @@
 .devContainer {
-    height: 500px;
+    height: 700px;
     background-color: whitesmoke;
-    width: 100%
+    width: 100%;
+    padding: 80px;
+    position: relative;
+}
+
+.servWrap {
+    position: absolute;
+    padding: 80px;
+    border: 1px solid black;
+    width: 90%;
+    height: 80%;
+    border-radius: 50px;
+}
+
+.icon-row {
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    border-radius: 15px;
+    left: 0;
+    top: 0;
+}
+
+.colWrap {
+position: relative;
+}
+
+.icon-top {
+    position: absolute;
+    font-size: 48px;
+}
+
+.border-right {
+    border-right: 1px darkslategray solid;
 }

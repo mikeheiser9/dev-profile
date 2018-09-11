@@ -10,3 +10,7 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+
+.material-icons {
+    font-family: 'Material Icons' !important;
+}
