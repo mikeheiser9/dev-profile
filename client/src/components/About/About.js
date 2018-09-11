@@ -24,7 +24,7 @@ class About extends Component {
         </Col>
         <Col s={12} m={6}>
           <div className={'textContainer'}>
-            <p id={'aboutMe'}>ABOUT ME</p>
+            <p id={'aboutMe'}>ABOUT ME.</p>
             <p id={'textBody'}>
             My name is Mike Heiser and I am a full-stack developer living in downtown LA. I enjoy creating dynamic web applications and expressing myself creativly through my projects. I have experience in both web development and e-commerce. I have worked on platforms such as Shoify, Magento, Wix, Squarespace and many others. If you like my work would like to see more please feel free send me a <a href={'#contact'}className={"contact-link"}>message</a></p>
           </div>

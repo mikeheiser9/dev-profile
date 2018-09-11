@@ -10,21 +10,21 @@ class Work extends Component{
         return (
             <div className={"workContainer"} id={"work"}>
             <Row>
-                <p className="work-head">Some of my Recent Work</p>
+                <p className="work-head">SOME RECENT WORK.</p>
             </Row>
-            <Row className={"gif-container"}>
-                <Col s={12} m={6} l={6} xl={6} className={"gif-img-cont"}>
+            <Row className={"gif-container-top"}>
+                <Col s={12} m={12} l={6} xl={6} className={"gif-img-cont"}>
                 <img src={'../../../images/baddlabs.gif'} alt={"baddlabs-gif"} className={"gif-img"} />
                 </Col>
-                <Col s={12} m={6} l={6} xl={6} className={"gif-img-cont"}>
+                <Col s={12} m={12} l={6} xl={6} className={"gif-img-cont"}>
                 <img src={'../../../images/hrf.gif'} alt={"hrf-gif"} className={"gif-img"} />
                 </Col>  
             </Row>
-            <Row className={"gif-container"}>
-                <Col s={12} m={6} l={6} xl={6} className={"gif-img-cont"}>
+            <Row className={"gif-container-bot"}>
+                <Col s={12} m={12} l={6} xl={6} className={"gif-img-cont"}>
                 <img src={'../../../images/dive.gif'} alt={"dive-gif"}className={"gif-img"} />
                 </Col>
-                <Col s={12} m={6} l={6} xl={6} className={"gif-img-cont"}>
+                <Col s={12} m={12} l={6} xl={6} className={"gif-img-cont"}>
                 <img src={'../../../images/squadup.gif'} alt={"squad-gif"} className={"gif-img"} />
                 </Col>  
             </Row>

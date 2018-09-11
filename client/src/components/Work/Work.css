@@ -1,5 +1,5 @@
 .workContainer {
-    height: 900px;
+    height: 1300px;
     background-color: #dedede;
     width: 100%;
     margin-top: -60px;
@@ -16,11 +16,21 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 28%;
+    margin-left: 27%;
 }
 
-.gif-container {
-    width:80%;
+.gif-container-top {
+    position: relative;
+    width: 100%;
+    margin-top: 200px;
+}
+
+
+
+.gif-container-bot {
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
 }
 
 .gif-img-cont {
@@ -29,5 +39,6 @@
 }
 
 .gif-img {
-    width: 100%;
+    width: 75%;
+    margin-left: 85px;
 }

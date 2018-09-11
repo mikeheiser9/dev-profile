@@ -10,7 +10,7 @@ class Dev extends Component{
             <div className={"devContainer"}>
             <Row  className={"servTop"}>
                 <Col s={12} m={12} l={12} xl={12}>
-                    <p className={"servTopText"}>Other Services</p>  
+                    <p className={"servTopText"}>OTHER SERVICES.</p>  
                 </Col>
             </Row>
             <Row  className={"servWrap"}>

@@ -9,14 +9,16 @@ class Contact extends Component{
     render(){
         return (
             <div className={"contactContainer"} id={"contact"}>
+            <Row className={"contact-head"}>
+            <p>LET'S START A CONVERSATION.</p>
+            </Row>
             <Row>
                 <Input s={6} label="First Name" />
                 <Input s={6} label="Last Name" />
                 <Input s={6} label="Phone Number"  />
-                <Input placeholder="Email" label="Email" s={6} />
+                <Input label="Email" s={6} />
                 <Input type="textarea" label="Tell me what you are looking for" s={12} />
             </Row>
-            
             </div>
         );
     };

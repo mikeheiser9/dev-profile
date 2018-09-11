@@ -11,7 +11,7 @@ class Services extends Component{
             <div className={"servicesContainer"} id={"services"}>
             <Row>
             <Col s={12}>
-                 <span className={"servicesHeader"}>E-Commerce Development</span>
+                 <span className={"servicesHeader"}>E-COMMERCE DEVELOPMENT.</span>
              </Col>
              </Row>
              <Row>
