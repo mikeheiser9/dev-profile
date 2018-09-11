@@ -27,7 +27,7 @@
 }
 
 #textBody {
-    color: darkgrey;
+    color: darkslategray;
     margin-top: 30px;
     font-size: 1.6vw;
     padding-left: 30px;
@@ -49,4 +49,8 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+.contact-link {
+    color: darkslateblue !important;
 }

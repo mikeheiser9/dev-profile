@@ -1,0 +1,33 @@
+.workContainer {
+    height: 900px;
+    background-color: #dedede;
+    width: 100%;
+    margin-top: -60px;
+    /* padding: 80px; */
+    position: relative;  
+}
+
+.work-head {
+    position: absolute;
+    margin-top: 30px !important;
+    font-size: 4vw;
+    font-family: 'Kanit', sans-serif !important;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 28%;
+}
+
+.gif-container {
+    width:80%;
+}
+
+.gif-img-cont {
+    width: 300px;
+    height: auto;
+}
+
+.gif-img {
+    width: 100%;
+}
