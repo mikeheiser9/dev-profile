@@ -1,38 +1,171 @@
 .devContainer {
-    height: 700px;
+    height: 1100px;
     background-color: whitesmoke;
     width: 100%;
     padding: 80px;
     position: relative;
 }
 
+.servTop{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    background-color: darkslateblue;
+    top: 0;
+    left: 0;
+}
+
+.servTopText {
+    font-family: 'Kanit', sans-serif !important;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 37%;
+    font-size: 4vw;
+
+}
+
 .servWrap {
     position: absolute;
-    padding: 80px;
-    border: 1px solid black;
-    width: 90%;
-    height: 80%;
+    border: 1px solid slategray;
+    background-color: white;
+    width: 89%;
+    height: 75%;
+    margin-top: 45px;
     border-radius: 50px;
+    -webkit-box-shadow: 1px 1px 1px 1px lightslategrey;
+    box-shadow: 1px 1px 1px 1px lightslategrey;
 }
 
 .icon-row {
-    position: absolute;
-    width: 33%;
+    position: relative;
+    width: 33.33% !important; 
     height: 100%;
-    border-radius: 15px;
-    left: 0;
+    left: 0 !important;
     top: 0;
-}
-
-.colWrap {
-position: relative;
+    text-align: center;
 }
 
 .icon-top {
     position: absolute;
     font-size: 48px;
+    left: 45%;
+    top: 9%;
+    color: darkslategray;
 }
 
 .border-right {
-    border-right: 1px darkslategray solid;
+    border-right: 1px slategray solid;
 }
+
+.inner-text {
+    position: absolute;
+    margin-top: 140px;
+    font-size: 24px;
+    left: 0;
+    width: 100%;
+    float: left;
+}
+
+.inner-sub-text {
+    position: absolute;
+    font-size: 15px;
+    float: left;
+    width: 100%;
+    left: 0;
+    margin-top: 190px;
+    padding: 35px;
+}
+
+.inner-sub-head {
+    position: absolute;
+    font-size: 20px;
+    float: left;
+    width: 100%;
+    left: 0;
+    margin-top: 350px;
+    padding: 35px;
+    color: darkslateblue;
+}
+
+.inner-sub-2 {
+    position: absolute;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    left: 0;
+    margin-top: 390px;
+    padding: 35px;
+    color: darkslategray;
+}
+
+.inner-sub-head2 {
+    position: absolute;
+    font-size: 20px;
+    float: left;
+    width: 100%;
+    left: 0;
+    margin-top: 470px;
+    padding: 35px;
+    color: darkslateblue;
+}
+
+.line1 {
+    position: absolute;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    left: 0;
+    margin-top: 505px;
+    padding: 35px;
+    color: darkslategray;
+}
+
+.line2 {
+    position: absolute;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    left: 0;
+    margin-top: 535px;
+    padding: 35px;
+    color: darkslategray;
+}
+
+.line3 {
+    position: absolute;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    left: 0;
+    margin-top: 565px;
+    padding: 35px;
+    color: darkslategray;
+}
+
+.line4 {
+    position: absolute;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    left: 0;
+    margin-top: 595px;
+    padding: 35px;
+    color: darkslategray;
+}
+
+.line5 {
+    position: absolute;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    left: 0;
+    margin-top: 625px;
+    padding: 35px;
+    color: darkslategray;
+}
+
+
+
+
