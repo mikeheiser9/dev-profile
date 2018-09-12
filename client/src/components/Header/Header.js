@@ -13,7 +13,7 @@ class Header extends Component {
     <Row>
       <Navbar right className="header">
         <NavItem className="navItem" href='#contact'>Contact</NavItem>
-        <NavItem className="navItem" href='#myWork'>My Work</NavItem>
+        <NavItem className="navItem" href='#work'>My Work</NavItem>
         <NavItem className="navItem" href='#services'>Services</NavItem>
         <NavItem className="navItem" href='#about'>About</NavItem>
       </Navbar>

@@ -9,10 +9,10 @@ class Contact extends Component{
     render(){
         return (
             <div className={"contactContainer"} id={"contact"}>
-            <Row className={"contact-head"}>
-            <p>LET'S START A CONVERSATION.</p>
-            </Row>
             <Row>
+            <p className={"contact-head"}>LET'S START A CONVERSATION.</p>
+            </Row>
+            <Row className={"input-container"}>
                 <Input s={6} label="First Name" />
                 <Input s={6} label="Last Name" />
                 <Input s={6} label="Phone Number"  />
