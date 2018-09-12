@@ -7,6 +7,7 @@ import Services from "./components/Services/Services";
 import Dev from "./components/Dev/Dev";
 import Work from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
+import Foot from "./components/Foot/Foot";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import "./App.css";
@@ -30,6 +31,7 @@ class App extends Component {
         <Dev />
         <Work />
         <Contact />
+        <Foot />
       </div>
     </Router>
     );
