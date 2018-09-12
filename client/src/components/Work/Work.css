@@ -1,9 +1,8 @@
 .workContainer {
-    height: 1300px;
+    height: 1400px;
     background-color: #dedede;
     width: 100%;
     margin-top: -60px;
-    /* padding: 80px; */
     position: relative;  
 }
 
@@ -16,13 +15,13 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 29%;
+    margin-left: 30%;
 }
 
 .gif-container-top {
     position: relative;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 .gif-container-bot {
@@ -31,12 +30,14 @@
     margin-top: 100px;
 }
 
-.gif-img-cont {
-    width: 300px;
-    height: auto;
-}
-
 .gif-img {
     width: 75%;
     margin-left: 85px;
+}
+
+.work-title {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    color: darkslategray;
 }
