@@ -96,6 +96,10 @@
     .gif-container-bot {
         margin-left: -20px;
     }
+    .work-sub {
+        margin-right: 6%;
+    }
+    
 }
 
 @media (max-width: 992px) {
@@ -132,7 +136,11 @@
 
 @media (max-width: 780px) {
     .workContainer {
-        height: 2150px;
+        height: 2750px;
+    }
+    .gif-img {
+        width: 75%;
+        margin-left: 16%;
     }
 }
 
@@ -169,3 +177,10 @@
         margin-right: 0;
     }
 }
+
+@media (max-width: 380px) {
+    .workContainer {
+        height: 1740px;
+    }
+}
+
