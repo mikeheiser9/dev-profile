@@ -41,3 +41,85 @@
 .ecom-container {
     position: relative;
 }
+
+@media (max-width: 1225px) {
+    .servicesContainer {
+        height: 700px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .servicesContainer {
+        height: 650px;
+    }
+}
+
+@media (max-width: 980px) {
+    .servicesContainer {
+        height: 580px;
+    }
+}
+
+@media (max-width: 880px) {
+    .servicesContainer {
+        height: 550px;
+    }
+}
+
+@media (max-width: 780px) {
+    .servicesContainer {
+        height: 500px;
+    }
+}
+
+@media (max-width: 680px) {
+    .servicesContainer {
+        height: 450px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ecom-container {
+        margin-top: 400px;
+    }
+    .ecomImg {
+        width: 60%;
+        float: none;
+        margin-left: 18%;
+    }
+    .servicesContainer {
+        height: 970px;
+    }
+}
+
+@media (max-width: 530px) {
+    .ecom-container {
+        margin-top: 350px;
+    }
+    .servicesContainer {
+        height: 915px;
+    }
+}
+
+@media (max-width: 450px) {
+    .ecom-container {
+        margin-top: 300px;
+    }
+    .servicesContainer {
+        height: 800px;
+    }
+    .servicesHeader {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .servicesContainer {
+        height: 650px;
+    }
+    .ecom-container {
+        margin-top: 225px;
+    }
+}
+
+

@@ -73,3 +73,89 @@
 .topContainer {
     position: absolute;
 }
+
+@media (max-width:1175px) {
+    #welcomeContainer{
+        height: 650px;
+    }
+}
+
+@media (max-width:1068px) {
+    #welcomeContainer{
+        height: 620px;
+    }
+}
+
+@media (max-width:980px) {
+    #job {
+        margin-top: 175px;
+    }
+    #location {
+        margin-top: 225px;
+    }
+}
+
+@media (max-width:875px) {
+    #name {
+        font-size: 10vw;
+        margin-left: 50px;
+    }
+    #job {
+        font-size: 4vw;
+        margin-left: 50px;
+
+    }
+    #location {
+        font-size: 4vw;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:780px) {
+    #welcomeContainer{
+        height: 540px;
+    }
+}
+
+@media (max-width:600px) {
+    #welcomeContainer{
+        height: 450px;
+        margin-top: -17px;
+    }
+
+    #job {
+        margin-top: 130px;
+    }
+
+    #location {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width:500px) {
+    #welcomeContainer{
+        height: 400px;
+    }
+
+    #job {
+        margin-top: 130px;
+        margin-left: 20px;
+    }
+
+    #location {
+        margin-top: 150px;
+        margin-left: 20px;
+
+    }
+
+    #name {
+        margin-left: 20px;
+        font-size: 12vw;
+    }
+}
+
+@media (max-width:400px) {
+    #welcomeContainer {
+        height: 360px;
+    }
+}

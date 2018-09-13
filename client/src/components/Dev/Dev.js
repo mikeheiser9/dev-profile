@@ -14,7 +14,7 @@ class Dev extends Component{
                 </Col>
             </Row>
             <Row  className={"servWrap"}>
-                <Col s={12} m={4} l={4} xl={4} className={"icon-row border-right"}>
+                <Col s={12} m={4} l={4} xl={4} className={"icon-row border-right"} id={"num1"}>
                     <span className={"material-icons icon-top"}>local_offer</span>
                         <p className={"inner-text"}>E-Commerce</p>
                         <p className={"inner-sub-text"}>I SPECIALIZE in building and optimizing e-commerce stores. I will provide a comprehensive audit of your online store or business and implement a plan with actionable solutions to boost your online presence and increase revenue.</p>
