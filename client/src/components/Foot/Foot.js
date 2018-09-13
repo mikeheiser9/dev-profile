@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Link, Redirect} from "react-router-dom"
 class Foot extends Component {
 
     componentDidMount() {
-        document.getElementsByClassName('footer-copyright')[0].innerHTML="<p class='material-icons c-right'>copyright <p class='copyright-text'>Michael Heiser</p>";
+        document.getElementsByClassName('footer-copyright')[0].innerHTML="<div class='copy-container'><p class='material-icons c-right'>copyright <p class='copyright-text'>Michael Heiser</p></div>";
       }
 
 

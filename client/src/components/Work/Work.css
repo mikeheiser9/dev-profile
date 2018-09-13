@@ -146,19 +146,19 @@
 
 @media (max-width: 680px) {
     .workContainer {
-        height: 2050px;
+        height: 2550px;
     }
 }
 
 @media (max-width: 580px) {
     .workContainer {
-        height: 1950px;
+        height: 2350px;
     }
 }
 
 @media (max-width: 480px) {
     .workContainer {
-        height: 1850px;
+        height: 2050px;
     }
     .gif-img {
         width: 75%;
@@ -176,6 +176,13 @@
         margin-left: 40px;
         margin-right: 0;
     }
+}
+
+@media (max-width: 440px) {
+    .workContainer {
+        height: 1900px;
+    }
+
 }
 
 @media (max-width: 380px) {

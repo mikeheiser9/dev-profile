@@ -21,10 +21,88 @@
     position: absolute;
     margin-top: 130px;
     width: 90%;
-    margin-left: 75px;
+    margin-left: 70px;
     background-color: darkslateblue;
     padding: 40px;
     border-radius: 15px;
     border: 3px solid lightslategray;
     color: white;
 }
+
+@media (max-width: 1250px) {
+    .input-container {
+        margin-left: 65px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .input-container {
+        margin-left: 60px;
+    }
+    .contactContainer {
+        height: 650px;
+    }
+}
+
+@media (max-width: 992px) {
+    .input-container {
+        margin-left: 50px;
+    }
+}
+
+
+@media (max-width: 928px) {
+    .input-container {
+        margin-left: 42px;
+    }
+}
+
+@media (max-width: 778px) {
+    .input-container {
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    .contactContainer {
+        height: 600px;
+    }
+    .contact-head {
+        font-size: 5vw;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 690px) {
+    .input-container {
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 680px) {
+    .input-container {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 650px) {
+    .input-container {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contactContainer {
+        height: 750px;
+    }
+}
+
+@media (max-width: 550px) {
+    .input-container {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-container {
+        margin-left: 20px;
+    }
+} 
