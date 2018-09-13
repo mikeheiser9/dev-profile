@@ -6,14 +6,34 @@ import { BrowserRouter as Router, Route, Link, Redirect} from "react-router-dom"
 
 class Foot extends Component {
 
+    componentDidMount() {
+        document.getElementsByClassName('footer-copyright')[0].innerHTML="<p class='material-icons c-right'>copyright <p class='copyright-text'>Michael Heiser</p>";
+      }
+
 
     render() {
      return (
         <div className={"footer-container"}>
         <Footer>
-            <a href={"https://www.linkedin.com/in/michael-heiser-72377b65/"}>
-            <img src={"../../../images/linkedin.png"} />
+            <Row className={'foot-row'}>
+            <a href={"https://www.linkedin.com/in/michael-heiser-72377b65/"} target={"_blank"} rel={"noopener noreferrer"} className={'atag-cont'}>
+            <img src={"../../../images/linkedin.png"} className={"foot-icons"}/>
+            <p className={'icon-txt'}>View My Linkedin</p>
             </a>
+            </Row>
+            <Row className={'foot-row'}>
+            <a href={"mailto:mikeheiser9@gmail.com"} target={"_blank"} rel={"noopener noreferrer"} className={'atag-cont'}>
+            <img src={"../../../images/mail.png"} className={"foot-icons"} />
+            <p className={'icon-txt'}>Email Me Directly</p>
+            </a>        
+            </Row>
+            <Row className={'foot-row'}>
+            <a href={"https://baddlabs.com"} target={"_blank"} rel={"noopener noreferrer"} className={'atag-cont'}>
+            <img src={"../../../images/enterprise.png"} className={"foot-icons"} />
+            <p className={'icon-txt'}>Check out my company</p>
+            </a>        
+            </Row>
+            
         </Footer>
         </div>
     );

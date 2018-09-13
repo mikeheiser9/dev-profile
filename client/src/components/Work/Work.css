@@ -27,7 +27,6 @@
 .gif-container-bot {
     position: relative;
     width: 100%;
-    margin-top: 100px;
 }
 
 .gif-img {
@@ -40,4 +39,23 @@
     font-weight: 800;
     text-align: center;
     color: darkslategray;
+}
+
+.work-sub {
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    color: darkslategray;
+    border: 1px solid lightslategray;
+    left: -20%;
+    margin-left: 87px;
+    margin-right: 87px;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+.work-sub:hover {
+    background-color: darkslateblue;
+    color: white;
 }
