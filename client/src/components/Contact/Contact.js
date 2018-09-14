@@ -25,33 +25,8 @@ class Contact extends Component{
     handleInputSubmit = (event) => {
         console.log(this.state);
         event.preventDefault();
-        // let formObj= {
-        //       first_name: this.state.first_name,
-        //       last_name: this.state.last_name,
-        //       phone: this.state.phone,
-        //       email: this.state.email,
-        //       message: this.state.message
-        //   }
-        //   console.log('formobj= '+ formObj);
-        //   axios.post("/api/contact"+formObj).then((res) => {
-        //       console.log(res);
-        //     window.location.reload();
-        //   }).catch((error) => {});
-        const formData = new FormData();
-        
-        formData.append('first_name', this.state.first_name);
-        formData.append('last_name', this.state.last_name);
-        formData.append('phone', this.state.phone);
-        formData.append('email', this.state.email);
-        formData.append('message', this.state.message);
-
-        console.log("formData=" + formData);
-  
-        axios({
-          url: "/contact",
-          method: "POST",
-          data: formData,
-        }).then((res) => {
+        axios.post("/contact", this.state
+        ).then((res) => {
           window.location.reload();
         }).catch((error) => {});
 

@@ -4,7 +4,7 @@ const mysql = require("mysql");
 module.exports = function (app) {
     app.post("/contact", function (req, res) {
         console.log(req.body);
-        db.contact.create({
+        db.personalcontact.create({
             first_name: req.body.first_name,
             last_name: req.body.last_name,
             email: req.body.email,
