@@ -48,7 +48,7 @@ class Contact extends Component{
         console.log("formData=" + formData);
   
         axios({
-          url: "/api/contact",
+          url: "/contact",
           method: "POST",
           data: formData,
         }).then((res) => {

@@ -1,6 +1,6 @@
 module.exports = function (sequelize, DataTypes) {
     // Creates a "Character" model that matches up with DB
-    var contact = sequelize.define("contact", {
+    var personalcontact = sequelize.define("personalcontact", {
         // the name of the character (a string)
         first_name: {
             type: DataTypes.STRING,
@@ -38,5 +38,5 @@ module.exports = function (sequelize, DataTypes) {
             }
         },
     });
-    return contact;
+    return personalcontact;
 };

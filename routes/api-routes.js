@@ -2,7 +2,7 @@ const db = require("../models");
 const mysql = require("mysql");
 
 module.exports = function (app) {
-    app.post("/api/contact", function (req, res) {
+    app.post("/contact", function (req, res) {
         console.log(req.body);
         db.contact.create({
             first_name: req.body.first_name,
