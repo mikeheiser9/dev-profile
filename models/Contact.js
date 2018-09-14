@@ -2,7 +2,14 @@ module.exports = function (sequelize, DataTypes) {
     // Creates a "Character" model that matches up with DB
     var contact = sequelize.define("contact", {
         // the name of the character (a string)
-        name: {
+        first_name: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            validate: {
+                len: [1]
+            }
+        },
+        last_name: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {

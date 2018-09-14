@@ -29,6 +29,18 @@
     color: white;
 }
 
+.btn {
+    background-color: lightslategray;
+    border: 1px solid darkslategrey;
+    border-radius: 15px;
+    width: 100%;
+    
+}
+
+.btn:hover{
+    background-color: crimson;
+}
+
 @media (max-width: 1250px) {
     .input-container {
         margin-left: 65px;
