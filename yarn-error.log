@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/9.4.0/bin/node /usr/local/bin/yarn start
+  /usr/local/Cellar/node/9.4.0/bin/node /usr/local/bin/yarn dev
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -2241,9 +2241,9 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit signal: SIGHUP
   Command: sh
-  Arguments: -c node server.js
+  Arguments: -c concurrently "nodemon server.js" "npm run client"
   Directory: /Users/mikeheiser/Documents/dev-profile
   Output:
   
