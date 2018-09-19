@@ -15,8 +15,6 @@ class Contact extends Component{
         message:""
     };
 
-    
-
     handleInput = (event) => {   
         let name = event.target.name;
         this.setState({[name]: event.target.value})
@@ -30,7 +28,13 @@ class Contact extends Component{
           window.location.reload();
         }).catch((error) => {});
 
+
         };
+
+    modalOpen = (event) => {
+        event.preventDefault();
+        document.getElementById("modalTrig").modal("open");
+        }
   
     render(){
         return (
