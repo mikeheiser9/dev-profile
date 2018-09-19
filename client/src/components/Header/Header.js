@@ -9,13 +9,14 @@ class Header extends Component {
 
     render() {
      return (
-    <div className={"navContainer"}> 
+    <div className={"navContainer"} id={"home"}> 
     <Row>
       <Navbar right className="header">
         <NavItem className="navItem" href='#contact'>Contact</NavItem>
         <NavItem className="navItem" href='#work'>My Work</NavItem>
         <NavItem className="navItem" href='#services'>Services</NavItem>
         <NavItem className="navItem" href='#about'>About</NavItem>
+        <NavItem className="navItem" href='#home'>Home</NavItem>
       </Navbar>
      </Row>
      </div>

@@ -14,7 +14,7 @@ class Welcome extends Component{
                         params={{
                         particles: {
                               "number": {
-                                "value": 160,
+                                "value": 200,
                                 "density": {
                                   "enable": true,
                                   "value_area": 800
@@ -49,7 +49,7 @@ class Welcome extends Component{
                                 }
                               },
                               "size": {
-                                "value": 4,
+                                "value": 8,
                                 "random": true,
                                 "anim": {
                                   "enable": false,
