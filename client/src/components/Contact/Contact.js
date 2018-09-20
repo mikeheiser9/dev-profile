@@ -5,7 +5,7 @@ import axios from "axios";
 import "../Contact/Contact.css";
 
 
-class Contact extends Component{
+class Contact extends Component {
 
     state = {
         first_name:"",
@@ -31,7 +31,7 @@ class Contact extends Component{
 
         };
 
-    modalOpen = (event) => {
+        modalOpen = (event) => {
         event.preventDefault();
         document.getElementById("modalTrig").modal("open");
         }

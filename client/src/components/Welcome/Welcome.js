@@ -125,10 +125,9 @@ class Welcome extends Component{
             />
                      <p id="name">Mike Heiser</p>
                      <br></br>
-                     <p id="job">Full-Stack Developer/E-Commerce Expert</p>
+                     <p id="job">Full-Stack Development and Digital Marketing</p>
                      <br></br>
                      <p id="location">DTLA</p>
-                
                     <img src={'../../../images/DTLA-copy.png'} alt={"dtla-img"} className="dtlaImg"/>
                     </Row>
             </div>

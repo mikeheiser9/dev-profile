@@ -29,7 +29,7 @@
 #textBody {
     color: darkslategray;
     margin-top: 30px;
-    font-size: 1.6vw;
+    font-size: 1.45vw;
     padding-left: 30px;
     text-align: center;
     padding-right: 30px;
@@ -89,6 +89,9 @@
 @media (max-width:960px) {
     .aboutRow { 
         height:450px;
+    }
+    .textBody {
+        font-size: 1.35vw;
     }
 }
 @media (max-width:900px) {
@@ -163,7 +166,7 @@
 
 @media (max-width: 600px) {
     .aboutRow {
-        height: 575px;
+        height: 675px;
     }
     .meImg {
         max-width: 85% !important;
@@ -171,14 +174,15 @@
     }
     .textContainer {
         margin-top: 300px;
-        margin-left: 0;
+        margin-left: -25%;
+        min-width: 150%;
     }
     #aboutMe {
-        margin-left: 35%;
+        margin-left: 40%;
     }
 
     #textBody {
-        font-size: 1.8vw;
+        font-size: 2.6vw;
     }
 }
 
@@ -186,20 +190,14 @@
     .textContainer {
         margin-top: 270px;
     }
-    #textBody {
-        font-size: 2vw;
-    }
 }
 
 @media (max-width: 525px) {
     .textContainer {
         margin-top: 230px;
     }
-    #textBody {
-        font-size: 2.2vw !important;
-    }
     .aboutRow {
-        height: 530px;
+        height: 630px;
     }
 }
 
@@ -218,11 +216,20 @@
     .textContainer {
         margin-top: 220px; 
     }
+    #aboutMe {
+        margin-left: 38%;
+    }
+    #textBody {
+        font-size: 2.8vw;
+    }
 }
 
 @media (max-width: 440px) {
     .textContainer {
         margin-top: 180px; 
+    }
+    #textBody {
+        font-size: 3.2vw;
     }
 }
 
@@ -231,12 +238,9 @@
         margin-top: 175px; 
     }
     #textBody {
-        font-size: 2.7vw !important;
         min-width: 120% !important;
         margin-left: -24px;
-    }
-    #aboutMe {
-        margin-left: 31%;
+        font-size: 3.5vw;
     }
 }
 
@@ -248,7 +252,7 @@
         margin-left: -60px;
     }
     .aboutRow {
-        height: 425px;
+        height: 595px;
     }
     #aboutMe {
         margin-left: 39%;
@@ -270,7 +274,7 @@
             margin-left: -69px;
         }
         .aboutRow {
-            height: 400px;
+            height: 545px;
         }
         #aboutMe {
             margin-left: 39%;
@@ -289,7 +293,7 @@
     margin-left: -39px;
     }
 .aboutRow {
-    height: 375px;
+    height: 500px;
     }
 #aboutMe {
     margin-left: 31%;
