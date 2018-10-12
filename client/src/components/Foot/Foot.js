@@ -16,7 +16,7 @@ class Foot extends Component {
         <div className={"footer-container"}>
         <Footer>
             <Row className={'foot-row'}>
-            <a href={"https://www.linkedin.com/in/michael-heiser-72377b65/"} target={"_blank"} rel={"noopener noreferrer"} className={'atag-cont'}>
+            <a href={"https://www.linkedin.com/in/michael-heiser-media-buyer-web-dev/"} target={"_blank"} rel={"noopener noreferrer"} className={'atag-cont'}>
             <img src={"../../../images/linkedin.png"} className={"foot-icons"}/>
             <p className={'icon-txt'}>View My Linkedin</p>
             </a>
