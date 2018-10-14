@@ -56,20 +56,6 @@
 }
 
 
-@-moz-document url-prefix() {  
-    .meImg{
-        width: 90%;
-        max-width: 90%;
-        height: auto;
-    }
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {    
-     img{
-        max-width: 90%;
-    }    
-}
-
 @media (max-width:1250px) {
     .aboutRow {
         height: 650px;
