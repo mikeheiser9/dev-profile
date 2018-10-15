@@ -11,7 +11,7 @@ class About extends Component {
        <div className="aboutRow" id={'about'}>
     <Row>
         <Col s={12} m={6}>
-        <div className={'imgContainer'}>
+        <div className={'imgContainer'} >
          <img src={'../../../images/me.jpg'} alt={"mike-heiser-img"} className="meImg responsive-img" />
           </div>
         </Col>
