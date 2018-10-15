@@ -74,6 +74,35 @@
     position: absolute;
 }
 
+@media (min-width:1450px) {
+    #welcomeContainer{
+        height: 1100px;
+    }
+    #name {
+        margin-top: 55px;
+    }
+    #job {
+        margin-top: 250px;
+    }
+    #location {
+        margin-top: 330px;
+    }
+    .meImg {
+        width: 70% !important;
+        margin-top: -45px !important;
+    }
+    #textBody {
+        padding-left: 0 !important;
+        margin-left: -100px !important;
+    }
+    .servicesContainer {
+        height: 1000px !important;
+    }
+    .workContainer {
+        height: 1800px !important;
+    }
+}
+
 @media (max-width:1175px) {
     #welcomeContainer{
         height: 650px;

@@ -55,6 +55,12 @@
     color: darkslateblue !important;
 }
 
+@media (max-width:1450px) {
+    .meImg{
+        max-width: 80% !important;
+    }
+}
+
 
 @media (max-width:1250px) {
     .aboutRow {
