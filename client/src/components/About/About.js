@@ -2,16 +2,9 @@ import React, { Component } from "react";
 import "../About/About.css";
 import {Dropdown, Button, NavItem, Modal, Col, Row, Navbar} from "react-materialize"
 import { BrowserRouter as Router, Route, Link, Redirect} from "react-router-dom";
-import AOS from "aos";
-import 'aos/dist/aos.css';
 
 class About extends Component {
 
-    componentDidMount(){
-        AOS.init({
-          duration : 2000
-        })
-      }
 
     render() {
      return (
