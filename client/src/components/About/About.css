@@ -10,14 +10,14 @@
     margin-left: 15px;
     position: absolute;
     border: solid 4px lightgray;
-    width: 90%;
+    width: 500px;
     height: auto;
     margin-top: -20px;
     border-radius: 15px;
+    box-shadow: 2px 2px 8px darkslategray;
 }
 
 #aboutMe {
-    font-size: 4vw;
     font-family: 'Kanit', sans-serif !important;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -28,11 +28,12 @@
 
 #textBody {
     color: darkslategray;
-    margin-top: 60px;
-    font-size: 1.65vw;
+    font-size: 25px;
     padding-left: 30px;
-    text-align: center;
+    text-align: left;
     padding-right: 30px;
+    font-weight: 300;
+    margin-top: 0px;
 }
 
 
@@ -55,255 +56,164 @@
     color: darkslateblue !important;
 }
 
-@media (max-width:1450px) {
-    .meImg{
-        max-width: 80% !important;
-    }
+@media (max-width:1250px) {
+    #textBody {
+        padding-left: 60px;
+        font-size: 24px;
+        padding-right: 0px;
+    }  
 }
 
-
-@media (max-width:1250px) {
-    .aboutRow {
-        height: 650px;
+@media (max-width:1185px) {
+    .meImg {
+        width: 450px;
     }
-}
-
-@media (max-width:1250px) {
+    #textBody {
+        padding-left: 40px;
+        font-size: 23px;
+    }
     .aboutRow{
-        height: 575px;   
-    }
-    .textContainer {
-        margin-top: -30px;
-        margin-left: 35px;
-    }
-    #aboutMe{
-        margin-left: 21%;
+        height: 600px;   
     }
 }
 
 @media (max-width:1150px) {
-    .aboutRow{
-        height: 550px;   
+    #textBody {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1125px) {
+    .meImg {
+        width: 400px;
+    }
+    #textBody {
+        font-size: 20px;
+    }
+    .aboutRow {
+        height: 550px;
     }
 }
 
 @media (max-width:1050px) {
-    .aboutRow{
-        height: 500px;   
+    .meImg {
+        width: 375px;
     }
-}
-
-@media (max-width:960px) {
-    .aboutRow { 
-        height:450px;
-    }
-    .textBody {
-        font-size: 1.35vw;
-    }
-}
-@media (max-width:900px) {
-    .aboutRow{
-        height: 400px;   
-    }
-    
     #textBody {
-        margin-top: 10px;
+        font-size: 18px;
     }
-
-    .meImg {
-        margin-top: -45px;
-    }
-
-    .textContainer {
-        margin-top: -50px;
-    }
-
-    #aboutMe {
-        margin-left: 25%;
+    .aboutRow {
+        height: 520px;
     }
 }
 
-@media (max-width:820px) {
-    .meImg {
-        width: 115%;
-        margin-left: -20px;
-        max-width: 115% !important
+@media (max-width:992px) {
+    .aboutRow{
+        height: 700px;
+        position: relative;  
     }
-    .textContainer {
-        margin-left: 35px;
+    .imgContainer {
+        max-width: 100%;
+        min-width: 100%;
         width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-#aboutMe {
-    margin-left: 22%;
-    }
-    .textContainer {
-        margin-left: 45px;
-    }
-}
-
-@media (max-width:710px) {
-    .aboutRow {
-        height: 380px;
-    }
-}
-
-@media (max-width:670px) {
-    .meImg {
-        width: 125%;
-        margin-left: -40px;
-        max-width: 125% !important
-    }
-    .textContainer {
-        margin-left: 45px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 625px) {
-    .aboutRow {
-        height: 335px;
-    }
-    #aboutMe {
-        margin-left: 20%;
-    }
-}
-
-@media (max-width: 600px) {
-    .aboutRow {
-        height: 675px;
+        height: 375px;
     }
     .meImg {
-        max-width: 85% !important;
-        margin-left: 8%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        height: 375px;
     }
-    .textContainer {
-        margin-top: 300px;
-        margin-left: -25%;
-        min-width: 150%;
-    }
-    #aboutMe {
-        margin-left: 40%;
-    }
-
     #textBody {
-        font-size: 2.6vw;
+        padding-left: 0px;
+        font-size: 20px;
     }
 }
 
-@media (max-width: 555px) {
-    .textContainer {
-        margin-top: 270px;
+@media (max-width:939px) {
+    #textBody {
+        font-size: 18px;
     }
 }
 
-@media (max-width: 525px) {
-    .textContainer {
-        margin-top: 230px;
+@media (max-width: 804px) {
+    .imgContainer {
+        margin-top: -30px;
+        height: 325px;padding-top: 50px;
     }
-    .aboutRow {
+    .meImg {
+        height: 325px;
+        width: 325px;
+    }
+    .aboutRow{
         height: 630px;
+        padding: 50px;
+    }
+    .textContainer {
+        padding-top: 50px;
     }
 }
 
-@media (max-width: 500px) {
-    .textContainer {
-        margin-top: 230px;
+@media (max-width: 724px) {
+    .aboutRow{
+        height: 670px;
+        padding: 50px;
     }
+}
+
+
+@media (max-width: 659px) {
+    .aboutRow{
+        padding: 25px;
+    }
+    .textContainer {
+        padding-top: 70px;
+    }
+
+}
+
+@media (max-width: 514px) {
+    .aboutRow{
+        height: 700px;
+    }
+}
+
+@media (max-width: 470px) {
     .meImg {
-        max-width: 100% !important;
-        margin-left: 0%;
-        margin-top: -70px;
+        width: 300px;
+        height: 300px;
+    }
+    .imgContainer {
+        height: 350px;
+    }
+    .textContainer {
+        padding-top: 10px;
     }
 }
 
-@media (max-width: 480px) {
-    .textContainer {
-        margin-top: 220px; 
-    }
-    #aboutMe {
-        margin-left: 38%;
-    }
-    #textBody {
-        font-size: 2.8vw;
-    }
-}
-
-@media (max-width: 440px) {
-    .textContainer {
-        margin-top: 180px; 
-    }
-    #textBody {
-        font-size: 3.2vw;
-    }
-}
-
-@media (max-width: 425px) {
-    .textContainer {
-        margin-top: 175px; 
-    }
-    #textBody {
-        min-width: 120% !important;
-        margin-left: -24px;
-        font-size: 3.5vw;
-    }
-}
-
-
-@media (max-width: 415px) {
-    .textContainer {
-        margin-top: 155px;
-        min-width: 150%;
-        margin-left: -60px;
-    }
+@media (max-width: 445px) {
     .aboutRow {
-        height: 595px;
-    }
-    #aboutMe {
-        margin-left: 39%;
-    }
-    .meImg {
-        margin-left: 1%;
+        height: 730px;
     }
 }
 
-@media (max-width: 375px) {
-    .meImg {
-        max-width: 125% !important;
-        margin-left: -12%;
-        margin-top: -70px;
+@media (max-width: 400px) {
+    .aboutRow {
+        height: 750px;
     }
-        .textContainer {
-            margin-top: 155px;
-            min-width: 175%;
-            margin-left: -69px;
-        }
-        .aboutRow {
-            height: 545px;
-        }
-        #aboutMe {
-            margin-left: 39%;
-        }
-    }
+}
 
 @media (max-width: 320px) {
-.meImg {
-    max-width: 125% !important;
-    margin-left: -11%;
-    margin-top: -70px;
+    .meImg {
+        width: 250px;
+        height: 250px;
     }
-.textContainer {
-    margin-top: 95px;
-    min-width: 175%;
-    margin-left: -39px;
+    .imgContainer {
+        height: 300px;
     }
-.aboutRow {
-    height: 500px;
-    }
-#aboutMe {
-    margin-left: 31%;
+    #textBody {
+        font-size: 17px;
     }
 }
 

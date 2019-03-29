@@ -43,6 +43,8 @@
     position: absolute;
     margin-left: 100px;
     margin-top: 70px;
+    font-weight: 300;
+    text-shadow: 2px 2px 8px white;
 }
 
 #job {
@@ -52,6 +54,8 @@
     position: absolute;
     margin-top: 205px;
     margin-left: 105px;
+    font-weight: 300;
+    text-shadow: 2px 2px 6px white;
 
 }
 
@@ -62,6 +66,8 @@
     position: absolute;
     margin-top: 255px;
     margin-left: 105px;
+    font-weight: 200;
+    text-shadow: 2px 2px 6px white;
 }
 
 #welcomeContainer {

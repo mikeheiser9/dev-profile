@@ -14,8 +14,8 @@ class Work extends Component{
             </Row>
             <Row className={"gif-container-top"}>
                 <Col s={12} m={12} l={6} xl={6} className={"gif-img-cont"}>
-                <p className={"work-title"}>BADD Labs</p>
-                <a href={"https://baddlabs.com/"} target={"_blank"} rel={"noopener noreferrer"}><img src={'../../../images/baddlabs1.gif'} alt={"baddlabs-gif"} className={"gif-img"} /></a>
+                <p className={"work-title"}>Bespoke Design Labs</p>
+                <a href={"https://bdl.media/"} target={"_blank"} rel={"noopener noreferrer"}><img src={'../../../images/baddlabs1.gif'} alt={"baddlabs-gif"} className={"gif-img"} /></a>
                 <p className={"work-sub"}>JQuery, Bootstrap, MySQL, Express, and Sequelize</p>
                 </Col>
                 <Col s={12} m={12} l={6} xl={6} className={"gif-img-cont"}>
@@ -26,14 +26,14 @@ class Work extends Component{
             </Row>
             <Row className={"gif-container-bot"}>
                 <Col s={12} m={12} l={6} xl={6} className={"gif-img-cont"}>
-                <p className={"work-title"}>Diving with the Stars</p>
-                <a href={"http://www.divingwiththestars.com/"} target={"_blank"} rel={"noopener noreferrer"}><img src={'../../../images/dive1.gif'} alt={"dive-gif"}className={"gif-img"} /></a>
-                <p className={"work-sub"}>Handlebars, MongoDB, AJAX, NodeJS</p>
+                <p className={"work-title"}>Daily Discounts</p>
+                <a href={"https://dailydiscounts.org"} target={"_blank"} rel={"noopener noreferrer"}><img src={'../../../images/dd.gif'} alt={"dive-gif"}className={"gif-img"} /></a>
+                <p className={"work-sub"}>WP Blog Site w/ Custom HTML/CSS and JS</p>
                 </Col>
                 <Col s={12} m={12} l={6} xl={6} className={"gif-img-cont"}>
-                <p className={"work-title"}>SquadUp</p>
-                <a href={"https://squadupv2.herokuapp.com/"} target={"_blank"} rel={"noopener noreferrer"}><img src={'../../../images/squadup1.gif'} alt={"squad-gif"} className={"gif-img"} /></a>
-                <p className={"work-sub"}>React, Materialize, Google Maps API</p>
+                <p className={"work-title"}>I Own a Home</p>
+                <a href={"https://iownahome.org"} target={"_blank"} rel={"noopener noreferrer"}><img src={'../../../images/iownahome.gif'} alt={"squad-gif"} className={"gif-img"} /></a>
+                <p className={"work-sub"}>Blog, Custom JavaScript Widgets, MySql</p>
                 </Col>  
             </Row>
             </div>

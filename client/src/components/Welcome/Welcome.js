@@ -127,7 +127,7 @@ class Welcome extends Component{
                      <br></br>
                      <p id="job">Full-Stack Development and Digital Marketing</p>
                      <br></br>
-                     <p id="location">DTLA</p>
+                     <p id="location">Los Angeles | Toronto</p>
                     <img src={'../../../images/DTLA-copy.png'} alt={"dtla-img"} className="dtlaImg"/>
                     </Row>
             </div>

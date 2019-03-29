@@ -1,5 +1,6 @@
 .footer-container .page-footer {
     background-color: darkslateblue !important;
+    margin-top: -10px;
 }
 
 .page-footer .container {

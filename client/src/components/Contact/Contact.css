@@ -1,120 +1,113 @@
 .contactContainer {
-    height: 700px;
-    background-color: whitesmoke;
+    height: 650px;
     width: 100%;
     position: relative;
+}
+
+.particles-c {
+    margin:0; 
+    display: block; 
+    position: absolute; 
+    width: 100% !important; 
+    height: 100% !important; 
+    background-color: whitesmoke; 
+    color: lightslategray; 
+    text-align: center; 
+    text-indent: 4px; 
+    line-height: 14px; 
+    padding-bottom: 2px; 
+    font-weight: bold;
+    margin-top: -5px; 
+    border-radius: 3px 3px 0 0; 
+    overflow: hidden;
+    border-radius: 0 0 3px 3px;
+    z-index: -1;
 }
 
 .contact-head {
     position: absolute;
     margin-top: 30px !important;
-    font-size: 4vw;
+    font-size: 40px;
     font-family: 'Kanit', sans-serif !important;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 22%;
+    color: darkslateblue;
+    text-shadow: 2px 2px 8px black;
+    width: 100%;
+    text-align: center;
 }
 
 .input-container {
-    position: absolute;
-    margin-top: 130px;
-    width: 90%;
-    margin-left: 70px;
+    margin-top: 125px;
+    width: 840px;
+    height: auto;
     background-color: darkslateblue;
     padding: 40px;
     border-radius: 15px;
     border: 3px solid lightslategray;
     color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
     background-color: lightslategray;
     border: 1px solid darkslategrey;
     border-radius: 15px;
-    width: 100%;
-    
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: auto;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: crimson;
 }
 
-@media (max-width: 1250px) {
+@media (max-width:992px) {
     .input-container {
-        margin-left: 65px;
+        width: 800px;
     }
 }
 
-@media (max-width: 1150px) {
+@media (max-width:860px) {
     .input-container {
-        margin-left: 60px;
-    }
-    .contactContainer {
-        height: 650px;
-    }
-}
-
-@media (max-width: 992px) {
-    .input-container {
-        margin-left: 50px;
-    }
-}
-
-
-@media (max-width: 928px) {
-    .input-container {
-        margin-left: 42px;
+        width: 700px;
     }
 }
 
 @media (max-width: 778px) {
-    .input-container {
-        margin-left: 40px;
-        margin-top: 100px;
-    }
     .contactContainer {
         height: 600px;
     }
-    .contact-head {
-        font-size: 5vw;
-        margin-left: 15%;
+}
+
+@media (max-width: 750px) {
+    .input-container {
+        width: 650px;
     }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 700px) {
     .input-container {
-        margin-left: 35px;
-    }
-}
-
-@media (max-width: 680px) {
-    .input-container {
-        margin-top: 100px;
+        width: 600px;
     }
 }
 
 @media (max-width: 650px) {
     .input-container {
-        margin-left: 30px;
+        width: 550px;
     }
 }
+
 
 @media (max-width: 600px) {
     .contactContainer {
-        height: 750px;
+        height: 770px;
+    }
+    .input-container {
+        width: 300px;
     }
 }
-
-@media (max-width: 550px) {
-    .input-container {
-        margin-left: 25px;
-    }
-}
-
-@media (max-width: 480px) {
-    .input-container {
-        margin-left: 20px;
-    }
-} 

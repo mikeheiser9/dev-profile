@@ -18,22 +18,21 @@ class Foot extends Component {
             <Row className={'foot-row'}>
             <a href={"https://www.linkedin.com/in/michael-heiser-media-buyer-web-dev/"} target={"_blank"} rel={"noopener noreferrer"} className={'atag-cont'}>
             <img src={"../../../images/linkedin.png"} className={"foot-icons"}/>
-            <p className={'icon-txt'}>View My Linkedin</p>
+            <p className={'icon-txt'}>My Linkedin</p>
             </a>
             </Row>
             <Row className={'foot-row'}>
             <a href={"mailto:mikeheiser9@gmail.com"} target={"_blank"} rel={"noopener noreferrer"} className={'atag-cont'}>
             <img src={"../../../images/mail.png"} className={"foot-icons"} />
-            <p className={'icon-txt'}>Email Me Directly</p>
+            <p className={'icon-txt'}>Email Me</p>
             </a>        
             </Row>
             <Row className={'foot-row'}>
-            <a href={"https://baddlabs.com"} target={"_blank"} rel={"noopener noreferrer"} className={'atag-cont'}>
+            <a href={"https://bdl.media"} target={"_blank"} rel={"noopener noreferrer"} className={'atag-cont'}>
             <img src={"../../../images/enterprise.png"} className={"foot-icons"} />
-            <p className={'icon-txt'}>Check out my company</p>
+            <p className={'icon-txt'}>My company</p>
             </a>        
             </Row>
-            
         </Footer>
         </div>
     );

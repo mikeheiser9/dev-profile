@@ -9,13 +9,20 @@
 .work-head {
     position: absolute;
     margin-top: 30px !important;
-    font-size: 4vw;
+    font-size: 40px;
     font-family: 'Kanit', sans-serif !important;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.gif-img {
+    display: block;
+    max-width: 70%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gif-container-top {
@@ -29,29 +36,26 @@
     width: 100%;
 }
 
-.gif-img {
-    width: 75%;
-    margin-left: 85px;
-}
-
 .work-title {
     font-size: 28px;
-    font-weight: 800;
+    font-weight: 500;
     text-align: center;
     color: darkslategray;
 }
 
 .work-sub {
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     color: darkslategray;
     border: 1px solid lightslategray;
-    left: -20%;
-    margin-left: 87px;
-    margin-right: 87px;
     padding: 10px;
     border-radius: 15px;
+    max-width: 70%;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -64,40 +68,17 @@
     .workContainer {
         height: 1340px;
     }
-    .work-sub {
-        margin-right: 57px;
-    }
 }
 
 @media (max-width: 1180px) {
     .workContainer {
-        height: 1280px;
-    }
-
-    .work-title {
-        margin-left: 30px;
+        height: 1230px;
     }
 }
 
 @media (max-width: 1080px) {
     .workContainer {
-        height: 1250px;
-    }
-    .work-title {
-        margin-left: 40px;
-    }
-
-    .work-head {
-        margin-left: 32%;
-    }
-    .gif-container-top {
-        margin-left: -20px;
-    }
-    .gif-container-bot {
-        margin-left: -20px;
-    }
-    .work-sub {
-        margin-right: 6%;
+        height: 1180px;
     }
     
 }
@@ -106,88 +87,101 @@
     .gif-container-top {
         margin-top: 75px;
     }
-    .work-head {
-        font-size: 5vw;
-        margin-left: 27.5%;
-    }
     .work-title {
         margin-top: 50px;
     }
+
+    .workContainer {
+        max-height: 2540px;
+        height: 2540px;
+    }
     .gif-img {
+        width: 500px;
+        height: auto;
+    }
+    .work-sub{
+        max-width: 50%;
         width: 50%;
-        margin-left: 27.5%;
-    }
-
-    .work-sub {
-        margin-left: 24%;
-        margin-right: 19%;
-    }
-
-    .workContainer {
-        height: 2500px;
-    }
-}
-
-@media (max-width: 850px) {
-    .workContainer {
-        height: 2300px;
     }
 }
 
 @media (max-width: 780px) {
     .workContainer {
-        height: 2750px;
+        max-height: 2580px;
+        height: 2580px;
+    }
+    .work-sub {
+        max-width: 65%;
+        width: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .work-sub {
+        max-width: 485px;
+        width: 485px;
+    }
+}
+
+@media (max-width: 730px) {
+    .workContainer {
+        max-height: 2530px;
+        height: 2530px;
+    }
+}
+
+@media (max-width: 700px) {
+    .workContainer {
+        max-height: 2470px;
+        height: 2470px;
+    }
+}
+
+@media (max-width: 650px) {
+    .workContainer {
+        max-height: 2370px;
+        height: 2370px;
+    }
+}
+
+@media (max-width: 600px) {
+    .workContainer {
+        max-height:1900px;
+        height: 1900px;
     }
     .gif-img {
-        width: 75%;
-        margin-left: 16%;
+        width: 300px;
+        height: auto;
     }
-}
-
-@media (max-width: 680px) {
-    .workContainer {
-        height: 2550px;
-    }
-}
-
-@media (max-width: 580px) {
-    .workContainer {
-        height: 2350px;
-    }
-}
-
-@media (max-width: 480px) {
-    .workContainer {
-        height: 2050px;
-    }
-    .gif-img {
-        width: 75%;
-        margin-left: 18.5%;
+    .work-sub {
+        max-width: 300px;
+        width: 300px;
     }
     .work-title {
-        margin-top: 20px;
+        font-size: 20px;
     }
+}
+
+@media (max-width: 400px) {
     .work-head {
-        font-size: 7vw;
-        margin-left: 16.5%;
+        font-size: 30px;
     }
-
-    .work-sub {
-        margin-left: 40px;
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 440px) {
     .workContainer {
-        height: 1900px;
+        max-height: 1750px;
+        height: 1750px;
     }
-
 }
 
-@media (max-width: 380px) {
+@media (max-width: 320px) { 
     .workContainer {
-        height: 1900px;
+        max-height: 1650px;
+        height: 1650px;
     }
 }
+
+
+
+
+
+
 

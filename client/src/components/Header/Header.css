@@ -1,7 +1,7 @@
 .header {
     font-family: 'Kanit', sans-serif !important;
     background-color: #191a25;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     z-index: 4;
 }
@@ -12,7 +12,30 @@
     margin-right: 10px;
 }
 
+#contactItem {
+    margin-right: 30px;
+}
+
 .navItem:hover {
     background-color: lightgray;
+}
+
+@media (max-width: 992px) {
+   li .nav-item {
+       font-size: 20px;
+   }
+   .side-nav li>a {
+    font-size: 20px !important;
+    width: 100% !important;
+    height: 60px !important;
+    padding: 35px 32px !important;
+    color: white;
+   }
+   #contactItem {
+    margin-right: 0px;
+}
+    .side-nav {
+    background-color: darkslateblue !important;
+    }
 }
 

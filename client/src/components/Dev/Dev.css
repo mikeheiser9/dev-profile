@@ -2,8 +2,10 @@
     height: 1000px;
     background-color: whitesmoke;
     width: 100%;
-    padding: 80px;
+    padding-left: 80px;
     position: relative;
+    padding-right: 80px;
+    padding-top: 90px;
 }
 
 .servTop {
@@ -21,8 +23,8 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin-top: 15px;
     margin-bottom: 0;
-    margin-left: 37%;
     font-size: 4vw;
+    text-align: center;
 
 }
 
@@ -31,11 +33,12 @@
     border: 1px solid slategray;
     background-color: white;
     width: 89%;
-    height: 75%;
+    height: 740px;
     margin-top: 45px;
     border-radius: 50px;
-    -webkit-box-shadow: 0.1px 0.1px 0.1px 0.1px lightslategrey;
-    box-shadow: 0.1px 0.1px 0.1px 0.1px lightslategrey;
+    -webkit-box-shadow: 2px 2px 8px lightslategrey;
+    box-shadow: 2px 2px 8px lightslategrey;
+
 }
 
 .icon-row {
@@ -48,11 +51,9 @@
 }
 
 .icon-top {
-    position: absolute;
     font-size: 48px;
-    left: 45%;
-    top: 9%;
     color: darkslategray;
+    margin-top: 30px;
 }
 
 .border-right {
@@ -61,7 +62,6 @@
 
 .inner-text {
     position: absolute;
-    margin-top: 140px;
     font-size: 24px;
     left: 0;
     width: 100%;
@@ -71,32 +71,32 @@
 .inner-sub-text {
     position: absolute;
     font-size: 15px;
-    float: left;
     width: 100%;
     left: 0;
-    margin-top: 190px;
-    padding: 35px;
+    margin-top: 80px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .inner-sub-head {
     position: absolute;
     font-size: 20px;
-    float: left;
     width: 100%;
     left: 0;
-    margin-top: 350px;
-    padding: 35px;
+    margin-top: 260px;
+    padding-left: 35px;
+    padding-right: 35px;
     color: darkslateblue;
 }
 
 .inner-sub-2 {
     position: absolute;
     font-size: 16px;
-    float: left;
     width: 100%;
     left: 0;
-    margin-top: 390px;
-    padding: 35px;
+    margin-top: 310px;
+    padding-left: 35px;
+    padding-right: 35px;
     color: darkslategray;
 }
 
@@ -106,8 +106,9 @@
     float: left;
     width: 100%;
     left: 0;
-    margin-top: 470px;
-    padding: 35px;
+    margin-top: 385px;
+    padding-left: 35px;
+    padding-right: 35px;
     color: darkslateblue;
 }
 
@@ -117,8 +118,9 @@
     float: left;
     width: 100%;
     left: 0;
-    margin-top: 505px;
-    padding: 35px;
+    margin-top: 435px;
+    padding-left: 35px;
+    padding-right: 35px;
     color: darkslategray;
 }
 
@@ -128,8 +130,9 @@
     float: left;
     width: 100%;
     left: 0;
-    margin-top: 535px;
-    padding: 35px;
+    margin-top: 475px;
+    padding-left: 35px;
+    padding-right: 35px;
     color: darkslategray;
 }
 
@@ -139,8 +142,9 @@
     float: left;
     width: 100%;
     left: 0;
-    margin-top: 565px;
-    padding: 35px;
+    margin-top: 515px;
+    padding-left: 35px;
+    padding-right: 35px;
     color: darkslategray;
 }
 
@@ -150,8 +154,9 @@
     float: left;
     width: 100%;
     left: 0;
-    margin-top: 595px;
-    padding: 35px;
+    margin-top: 555px;
+    padding-left: 35px;
+    padding-right: 35px;
     color: darkslategray;
 }
 
@@ -161,54 +166,40 @@
     float: left;
     width: 100%;
     left: 0;
-    margin-top: 625px;
-    padding: 35px;
+    margin-top: 595px;
+    padding-left: 35px;
+    padding-right: 35px;
     color: darkslategray;
 }
 
 @media (max-width: 1280px) {
-    .servWrap {
-        margin-left: -10px;
-    }
-
-    .inner-sub-head {
-        margin-top: 375px;
-    }
-
-    .inner-sub-2 {
-        margin-top: 420px;
-    }
-
-    .inner-sub-head2 {
-        margin-top: 490px;
-    }
-
-    .line1 {
-        margin-top: 525px;
-    }
-
-    .line2 {
-        margin-top: 555px;
-    }
-
-    .line3 {
-        margin-top: 585px;
-    }
-
-    .line4 {
-        margin-top: 615px;
-    }
-
-    .line5 {
-        margin-top: 645px;
+    .devContainer {
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
-@media (max-width: 1087px) {
-    .servWrap {
-        margin-left: -20px;
+@media (max-width: 1175px) {
+    .inner-text {
+        font-size: 22px;
     }
 }
+
+@media (max-width: 1151px) {
+    .inner-sub-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1091px) {
+    .inner-text {
+        font-size: 20px;
+    }
+    .inner-sub-text {
+        margin-top: 70px;
+    }
+}
+
 
 @media (max-width: 1025px) {
     .line2 {
@@ -217,11 +208,13 @@
     }
 }
 
-@media (max-width: 960px) {
-    .icon-top {
-        left: 47%;
-        margin-top: -28px;
+@media (max-width: 968px) {
+    .inner-sub-text {
+        margin-top: 60px;
     }
+}
+
+@media (max-width: 960px) {
 
     .icon-row {
         min-width: 100%;
@@ -230,309 +223,224 @@
     }
 
     .devContainer {
-        height: 2400px;
-        margin-bottom: -400px;
-        }
+        height: 2075px;
+    }
 
     .inner-text {
-        margin-top: 100px;
+        margin-top: 10px;
     }
 
     .inner-sub-text {
-        margin-top: 125px;
+        margin-top: 55px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .inner-sub-head {
-        margin-top: 230px;
+        margin-top: 150px;
     }
 
     .inner-sub-2 {
-        margin-top: 265px;
+        margin-top: 190px;
     }
 
     .inner-sub-head2 {
-        margin-top: 310px;
+        margin-top: 240px;
     }
 
     .line1 {
-        margin-top: 345px;
+        margin-top: 280px;
     }
 
     .line2 {
         width: 100%;
         margin-left: 0px;
-        margin-top: 370px;
-    }
-
-    .line3 {
-        margin-top: 395px;
-    }
-
-    .line4 {
-        margin-top: 420px;
-    }
-
-    .line5 {
-        margin-top: 445px;
-    }
-
-    #num1 {
-        height: 30% !important;
-        border-bottom: 2px solid lightslategray;
-    }
-
-    #num2 {
-        height: 30% !important;
-        border-bottom: 2px solid lightslategray;
-    }
-
-    #num3 {
-        margin-top: 50px;
-        height: 30% !important;
-    }
-
-    .servWrap {
-        margin-left: -28px;
-    }
-
-}
-
-@media (max-width: 850px) {
-    .servWrap {
-        margin-left: -35px;
-    }
-    .servTopText {
-        font-size: 5vw;
-        margin-left: 31%;
-    }
-}
-
-@media (max-width: 750px) {
-    .servWrap {
-        margin-left: -39px;
-    }
-}
-
-@media (max-width: 650px) {
-    .servWrap {
-        margin-left: -43px;
-    }
-}
-
-@media (max-width: 550px) {
-    .servWrap {
-        margin-left: -50px;
-    }
-
-    .inner-sub-head {
-        margin-top: 250px;
-    }
-
-    .inner-sub-2 {
-        margin-top: 285px;
-    }
-
-    .inner-sub-head2 {
-        margin-top: 330px;
-    }
-
-    .line1 {
-        margin-top: 365px;
-    }
-
-    .line2 {
-        margin-top: 390px;
-    }
-
-    .line3 {
-        margin-top: 415px;
-    }
-
-    .line4 {
-        margin-top: 440px;
-    }
-
-    .line5 {
-        margin-top: 465px;
-    }
-
-    #num1 {
-        height: 33% !important;  
-    }
-    #num2 {
-        height: 33% !important;  
-    }
-    #num3 {
-        height: 33% !important;  
-    }
-}
-
-@media (max-width: 470px) {
-    .servWrap {
-        margin-left: -55px;
-    }
-
-    .inner-sub-head {
-        margin-top: 260px;
-    }
-
-    .inner-sub-2 {
-        margin-top: 295px;
-    }
-
-    .inner-sub-head2 {
-        margin-top: 340px;
-    }
-
-    .line1 {
-        margin-top: 375px;
-    }
-
-    .line2 {
-        margin-top: 400px;
-    }
-
-    .line3 {
-        margin-top: 425px;
-    }
-
-    .line4 {
-        margin-top: 450px;
-    }
-
-    .line5 {
-        margin-top: 475px;
-    }
-
-    .icon-top {
-        left: 45%;
-    }
-
-    .servTopText {
-        font-size: 8vw;
-        margin-left: 19%;
-    }
-}
-
-
-@media (max-width: 415px) {
-    #num3 {
-        margin-top: 20px;
-    }
-
-    .inner-sub-head {
-        margin-top: 280px;
-    }
-
-    .inner-sub-2 {
         margin-top: 315px;
     }
 
-    .inner-sub-head2 {
-        margin-top: 360px;
-    }
-
-    .line1 {
-        margin-top: 395px;
-    }
-
-    .line2 {
-        margin-top: 420px;
-    }
-
     .line3 {
-        margin-top: 445px;
+        margin-top: 350px;
     }
 
     .line4 {
-        margin-top: 470px;
+        margin-top: 385px;
     }
 
     .line5 {
-        margin-top: 495px;
-    }
-    .icon-top {
-        left: 43%;
-    }
- }
-
- @media (max-width: 380px) {
-    .servWrap {
-        margin-left: -59px;
+        margin-top: 415px;
     }
 
-    .icon-top {
-        left: 43%;
+    #num1 {
+        height: 33% !important;
+        border-bottom: 2px solid lightslategray;
     }
 
-    .inner-sub-head2 {
-        margin-top: 365px;
+    #num2 {
+        height: 33% !important;
+        border-bottom: 2px solid lightslategray;
     }
 
     #num3 {
-        margin-top: 0px;
+        height: 33% !important;
     }
-
-    .inner-text {
-        margin-top: 85px;
-    }
-
-}
-
- @media (max-width: 360px) {
 
     .servWrap {
-        margin-left: -62px;
+        height: 1800px;
+        width: 88%;
+        margin-top: 10px;
+    }
+    .servTopText {
+        font-size: 40px;
+    }
+    .servicesHeader {
+        font-size: 40px;
     }
 
-    .icon-top {
-        left: 42%;
-    }
+}
 
-    .inner-text {
-        margin-top: 80px;
-    }
-
-    .inner-sub-text {
-        margin-top: 120px;
-        min-width: 120% !important;
-        margin-left: -30px;
-    }
-
-    .inner-sub-head {
-        margin-top: 295px;
-    }
-
-    .inner-sub-2 {
-        margin-top: 325px;
-    }
-
-    .inner-sub-head2 {
-        margin-top: 380px;
-    }
-
-    .line1 {
-        margin-top: 405px;
-    }
-
-    .line2 {
-        margin-top: 425px;
-        min-width: 120%;
-        margin-left: -25px;
-    }
-
-    .line3 {
-        margin-top: 445px;
-    }
-
-    .line4 {
-        margin-top: 465px;
-    }
-
-    .line5 {
-       margin-top: 485px;
+@media (max-width: 870px) {
+    .servWrap {
+        width: 86%;
     }
 }
+
+@media (max-width: 810px) {
+    .devContainer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 660px) {
+    .devContainer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 620px) {
+    .inner-sub-text {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .inner-sub-text {
+        margin-top: 65px;
+    }
+    .line5 {
+        margin-top: 450px;
+    }
+    .line4 {
+        margin-top: 420px;
+    }
+    .line3 {
+        margin-top: 385px;
+    }
+    .line2 {
+        margin-top: 350px;
+    }
+    .line1 {
+        margin-top: 315px;
+    }
+    .inner-sub-head2 {
+        margin-top: 275px;
+    }
+    .inner-sub-2 {
+        margin-top: 225px;
+    }
+    .inner-sub-head {
+        margin-top: 185px;
+    }
+}
+
+@media (max-width: 560px) {
+    .servTopText {
+        font-size: 30px;
+    }
+    .servicesHeader {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 540px) {
+    .devContainer {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .inner-sub-text {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 460px) {
+    .devContainer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 440px) {
+    .inner-sub-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .servTopText {
+        font-size: 28px;
+    }
+    .servicesHeader {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 375px) {
+    .servicesHeader {
+        font-size: 25px;
+    }
+    .devContainer {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .inner-sub-text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .servicesHeader {
+        font-size: 22px;
+    }
+    .inner-sub-text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .devContainer {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .inner-text {
+        font-size: 18px;
+    }
+    .line2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .inner-sub-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .inner-sub-head2 {
+        margin-top: 285px;
+    }
+    .inner-sub-head {
+        margin-top: 190px;
+    }
+    .servWrap {
+        margin-top: 0px;
+    }
+}
+
 
 
 
