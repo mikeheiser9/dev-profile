@@ -11,11 +11,11 @@ class Header extends Component {
     <div className={"navContainer"} id={"home"}> 
     <Row>
       <Navbar right className="header">
-        <NavItem className="navItem" id="contactItem" href='#contact'>Contact</NavItem>
-        <NavItem className="navItem" href='#work'>My Work</NavItem>
-        <NavItem className="navItem" href='#services'>Services</NavItem>
-        <NavItem className="navItem" href='#about'>About</NavItem>
-        <NavItem className="navItem" href='#home'>Home</NavItem>
+        <NavItem className="navItem contactItem" id="fiveOrder"href='#contact'>Contact</NavItem>
+        <NavItem className="navItem" href='#work' id="fourOrder">My Work</NavItem>
+        <NavItem className="navItem" href='#services' id="threeOrder">Services</NavItem>
+        <NavItem className="navItem" href='#about' id="twoOrder">About</NavItem>
+        <NavItem className="navItem" href='#home'id="oneOrder">Home</NavItem>
       </Navbar>
      </Row>
      </div>
